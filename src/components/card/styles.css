@@ -1,0 +1,49 @@
+.card {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.card h1, h3{
+    padding: 2px;
+    margin: 2px;
+}
+
+.info{
+    margin: auto 10px;
+}
+
+.acoes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 90%;
+}
+
+.btn {
+    height: 50%;
+    margin-right: 10px;    
+}
+
+.acoes button{
+    display: block;
+    background-color: #fff;
+    border: 1px solid #F5D0A9;
+    border-radius: 0.5rem;
+    height: 40px;
+    width: 40px;
+    color: black;
+    margin: 30px 0;
+}
+
+.acoes button:hover{
+    background-color: #F5D0A9;
+}
+
+.acoes button img {
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,67 @@
+.container {
+    margin: 10px 70px;
+  }
+  
+  .navbar {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    background-color: #F5D0A9;
+  }
+  
+  .buscar {
+    margin-left: 30px;
+    width: 80%;
+  }
+  
+  .buscar input{
+    width: 70%;
+    height: 34px;
+    border: 1px solid #797979;
+    border-radius: 0.5rem;
+  }
+  
+  .buscar button{
+    background-color: white;
+    height: 34px;
+    border: 1px solid #797979;
+    border-radius: 0.5rem;
+    margin-left: 5px;
+  }
+  
+  .buscar button:hover{
+    background-color: #F5D0A9;
+    cursor: pointer;
+  }
+  
+  .buscar img{
+    height: 15px;
+    width: 15px;
+  }
+  
+  .cadastrar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 10%;
+  }
+  
+  .cadastrar button {
+    background-color: #fff;
+    border: 1px solid #797979;
+    height: 34px;
+    width: 100px;
+    border-radius: 0.5rem;
+  }
+  
+  .cadastrar button:hover {
+    background-color: #F5D0A9;
+    cursor: pointer;
+  }
+
+  .especialidade {
+    border: 1px solid #797979;
+    border-radius: 0.3rem;
+    padding: 3px;
+    margin: 3px;
+  }
